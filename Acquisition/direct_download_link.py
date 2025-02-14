@@ -9,7 +9,7 @@ def direct_download(url, file_path, datasets_to_pull):
     Function to download file from URL. Iterates through data writing out chunks of 1 MB (1024*1024)
     :param url: URL for the data to be downloaded
     :param file_path: File path where the data will be saved
-    :param datasets_to_pull: dataset name to be pulled
+    :param datasets_to_pull: name of dataset name to be pulled
     :return: None
     '''
 
